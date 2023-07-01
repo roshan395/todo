@@ -12,9 +12,6 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @Configuration
 public class SpringSecurityConfiguration {
-	//LDAp or DB
-	//InMemoryUserDetailsManager
-	//InMemoryUserDetailsManager(UserDetails... users)
 	
 	@Bean
 	public InMemoryUserDetailsManager createUserDetailsManager() {
