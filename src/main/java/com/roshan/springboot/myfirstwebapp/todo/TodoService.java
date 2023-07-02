@@ -16,7 +16,7 @@ public class TodoService {
 	static {
 		todos.add(new Todo(++todoCount,"roshan", "learn spring", 
 				LocalDate.now().plusYears(1), false));
-		todos.add(new Todo(++todoCount,"ronak", "learn azure", 
+		todos.add(new Todo(++todoCount,"rickx", "learn azure", 
 				LocalDate.now().plusYears(2), false));
 		todos.add(new Todo(++todoCount,"roshan", "learn angular", 
 				LocalDate.now().plusYears(3), false));
