@@ -2,10 +2,18 @@ package com.roshan.springboot.myfirstwebapp.todo;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
+//mapping todo bean to table in DB using JPA
+
+@Entity
 public class Todo {
 
+	@Id
+	@GeneratedValue
 	private int id;
 	private String username;
 	@Size(min=10, message="enter atleast 10 characters")
